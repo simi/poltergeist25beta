@@ -17,6 +17,6 @@ addons:
       - fontconfig
       - libfreetype6
       - libicu52
-      - libhypen0
+      - libhyphen0
 
 env: PHANTOMJS=$PWD/phantomjs
