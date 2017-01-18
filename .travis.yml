@@ -5,4 +5,16 @@ before_install:
   - wget "http://retro.apicko.cz/phantomjs"
   - chmod u+x phantomjs
 
+addons:
+  apt:
+    packages:
+      - png
+      - jpeg
+      - webp
+      - openssl
+      - zlib
+      - fontconfig
+      - freetype
+      - libicu
+
 env: PHANTOMJS=$PWD/phantomjs
