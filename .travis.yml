@@ -14,7 +14,7 @@ addons:
       - openssl
       - zlib1g
       - fontconfig
-      - freetype6
+      - libfreetype6
       - libicu48
 
 env: PHANTOMJS=$PWD/phantomjs
