@@ -8,13 +8,13 @@ before_install:
 addons:
   apt:
     packages:
-      - png
-      - jpeg
+      - libpng3
+      - libjpeg8
       - webp
       - openssl
-      - zlib
+      - zlib1g
       - fontconfig
-      - freetype
-      - libicu
+      - freetype6
+      - libicu48
 
 env: PHANTOMJS=$PWD/phantomjs
