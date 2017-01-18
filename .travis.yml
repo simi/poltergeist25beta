@@ -18,5 +18,5 @@ addons:
       - libfreetype6
       - libicu52
       - libhyphen0
-
+      - libstdc++6
 env: PHANTOMJS=$PWD/phantomjs
