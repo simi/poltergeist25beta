@@ -1,4 +1,5 @@
 sudo: false
+dist: trusty
 script: echo "It works!"
 before_script: ${PHANTOMJS:-phantomjs} --version
 before_install:
@@ -15,6 +16,6 @@ addons:
       - zlib1g
       - fontconfig
       - libfreetype6
-      - libicu48
+      - libicu52
 
 env: PHANTOMJS=$PWD/phantomjs
